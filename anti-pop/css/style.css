@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Playfair Display;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../nyc.jpg);
+  height: 100vh;
+  background-size: cover;
+  background position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-grid;
+}
+
+ul li a{
+  text-decoration: none;
+  font-weight: 900;
+  color:#fff;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+}
+
+.logo img{
+  float: left;
+  filter: invert(100%);
+  width: 100px;
+  height: auto;
+}
+
+.main{
+  max-width:1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
+.title b{
+  color: #fff;
+  font-size: 69px;
+  font-style: italic;
+}
